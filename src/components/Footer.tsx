@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -22,18 +22,13 @@ const Footer = () => {
               <Mail size={18} />
             </a>
             <a 
-              href="#"
+              href="https://www.linkedin.com/in/john-k-2a2b7b305/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-primary shadow-sm hover:bg-primary hover:text-white transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin size={18} />
-            </a>
-            <a 
-              href="#"
-              className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-primary shadow-sm hover:bg-primary hover:text-white transition-colors"
-              aria-label="GitHub"
-            >
-              <Github size={18} />
             </a>
           </div>
         </div>
@@ -41,6 +36,9 @@ const Footer = () => {
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground text-sm">
             &copy; {currentYear} John Kim. All rights reserved.
+          </p>
+          <p className="text-muted-foreground text-sm mt-2">
+            Developed by <a href="https://www.samweninger.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Samuel Weninger</a>
           </p>
         </div>
       </div>

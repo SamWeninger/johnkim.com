@@ -46,8 +46,12 @@ const Hero = () => {
           <div className="order-1 md:order-2 animate-scale-in flex justify-center">
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 absolute top-0 left-0 blur-3xl opacity-20"></div>
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center relative">
-                <span className="text-white text-6xl font-bold">JK</span>
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden relative border-4 border-primary/20">
+                <img 
+                  src="/lovable-uploads/ec17ad96-5f3b-4dac-a687-c248da4cd1eb.png" 
+                  alt="John Kim" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
