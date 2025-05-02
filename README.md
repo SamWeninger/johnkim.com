@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: [Your Repository Website URL Here]
+**URL**: [myungkim.netlify.app](https://github.com/SamWeninger/johnkim.com.git)](https://myungkim.netlify.app/)
 
 **Description**: This project is a web application built using Vite, TypeScript, React, shadcn-ui, and Tailwind CSS. It provides a user-friendly interface for managing tasks and projects efficiently.
 
